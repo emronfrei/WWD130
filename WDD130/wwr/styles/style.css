@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Parisienne&display=swap');
+
+
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +11,7 @@ nav a{
     background-color: #CE4E12 ;
     color: #251605;
     text-decoration: none;
+    padding: 35px;
   }
 #hero-msg h1,
 #hero-msg h4{
@@ -24,6 +29,13 @@ nav a{
 }
 body{
     background-color: #C6A380;
+    font-family: "Nunito Sans", Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
 }
 nav a:hover{
     background-color: #C6A380;
@@ -35,11 +47,17 @@ footer a{
     color: #CE4E12;
     text-decoration: none;
 }
+footer{
+    padding: 25px 50px;
+    margin-top: 200px;
+}
 header{
     background-color: #78A1BB;
 }
 .msg{
     background-color: #CE4E12;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .book:hover, 
 .join:hover{
@@ -51,9 +69,16 @@ header{
     background-color: #CE4E12;
     color: #251605;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .home-title{
     color: #251605;
+    font-family: "Parisienne", "Brush Script MT", cursive;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4{
     color: #CE4E12;
@@ -63,12 +88,15 @@ h4{
 }
 .msg p{
     color: #251605;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer a:hover{
     color: #C6A380;
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 .logo{
     width: 80px;
@@ -82,3 +110,19 @@ footer p{
 footer p a:hover {
     text-decoration: underline;
 }  
+#logo_link{
+    padding-top: 5px;
+
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #251605;
+}
+main section img {
+    box-sizing: border-box;
+}
