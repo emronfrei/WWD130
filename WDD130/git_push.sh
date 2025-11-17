@@ -8,7 +8,7 @@ set -e
 git add .
 
 # Commit with a message
-git commit -m "updated wireframes"
+git commit -m "updated site plan text"
 
 # Push to the current branch on origin
 git push
