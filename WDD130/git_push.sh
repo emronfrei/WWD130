@@ -8,7 +8,7 @@ set -e
 git add .
 
 # Commit with a message
-git commit -m "added contact us page"
+git commit -m "added Persnoal website"
 
 # Push to the current branch on origin
 git push
