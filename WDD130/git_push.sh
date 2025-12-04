@@ -8,7 +8,7 @@ set -e
 git add .
 
 # Commit with a message
-git commit -m "added Image gallary"
+git commit -m "added CSS for learn.html"
 
 # Push to the current branch on origin
 git push
